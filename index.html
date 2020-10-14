@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Quiz Game</title>
+</head>
+
+<body>
+    
+    <div id="top-div">
+        <div id="highscore" class="HsBtn">View Highscore</div>
+    </div>
+        
+
+    <div class="main-container">
+        <p id= intro>Complete test in 2 minutes!</p>
+        <div id ="questions-div" class="questions" >
+            <div id="questions"></div>
+            <div id="answers" class="btn-grid">
+                <button class="Answer-btn a" data-value="a"></button>
+                <button class="Answer-btn b" data-value="b"></button>
+                <button class="Answer-btn c" data-value="c"></button>
+                <button class="Answer-btn d" data-value="d"></button>
+            </div>
+        </div>
+            <div class="control-btns">
+                <button id="start-btn" class="start-btn btn">Begin</button>
+                    <button id="finish-btn" class="finish-btn btn">Finish</button>
+                
+    </div>
+    <div id="timer" class="timer-text"> </div>
+    <div id=score></div>
+    <script src="script.js"></script>
+</body>
+</html>
